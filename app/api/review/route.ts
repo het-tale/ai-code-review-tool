@@ -27,11 +27,11 @@ export async function POST(request: NextRequest) {
       responseFormat: { type: "json_object" },
     });
     const content = response.choices?.[0]?.message?.content;
-
-    if (!content) {
-      throw new Error("No response from Mistral");
+    
+    if (!content || typeof content !== 'string') {
+      throw new Error("No response from Mistral or content is not a string");
     }
-
+    
     const reviewResult: ReviewResult = JSON.parse(content);
 
     return NextResponse.json(reviewResult);
