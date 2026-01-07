@@ -20,7 +20,12 @@ An intelligent code review tool powered by Mistral AI that provides comprehensiv
 - Node.js 18+ installed
 - A Mistral AI API key (get one at [console.mistral.ai](https://console.mistral.ai/))
 
-## Installation
+## 🏃 Quick Start
+
+### Option 1: Use Live Demo (Fastest)
+Just visit: **[https://ai-code-review-tool-seven.vercel.app/](https://ai-code-review-tool-seven.vercel.app/)**
+
+### Option 2: Run Locally
 
 1. **Clone the repository**
    ```bash
