@@ -2,7 +2,7 @@
 
 An intelligent code review tool powered by Mistral AI that provides comprehensive analysis of your code for security vulnerabilities, performance issues, and best practices.
 
-![AI Code Review Tool](https://img.shields.io/badge/Mistral-AI-orange) ![Next.js](https://img.shields.io/badge/Next.js-14-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![AI Code Review Tool](https://img.shields.io/badge/Mistral-AI-orange) ![Next.js](https://img.shields.io/badge/Next.js-16-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 
 ## Features
 
